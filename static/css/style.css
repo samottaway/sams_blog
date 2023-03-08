@@ -1,0 +1,38 @@
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    color: darkcyan;
+}
+
+a {
+    align-items: center;
+    color: darkcyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    align-content: center;
+    text-align: center;
+}
+
+textarea {
+    align-items: center;
+    color: darkcyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    align-content: center;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: darkcyan;
+}
+
+
+body {
+    background-color: cyan;
+    align-items: center;
+
+}

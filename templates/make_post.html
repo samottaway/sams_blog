@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" >
+</head>
+<body>
+{% block content %}
+<h1>make post </h1>
+<form method="POST" action="{{ url_for('make_post')}}">
+
+        {{ form.csrf_token() }}
+  {{ form.author() }}
+        <h2>{{ form.author.label() }}</h2>
+   {{ form.date() }}
+       <h2> {{ form.date.label() }}</h2>
+    {{ form.post() }}
+        <h2>{{ form.post.label() }}</h2>
+    {{ form.title() }}
+        <h2>{{ form.title.label() }}</h2>
+
+        <a>{{ form.submit() }}</a>
+</form>
+{% endblock %}
+</body>
+
+</html>
